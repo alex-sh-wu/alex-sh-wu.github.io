@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.vl {
+  background-color: black;
+  width: 2px;
+  height: 36px;
+}
+
+.nav-bar {
+	font-size: 30pt;
+	font-weight: 300; 
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	background-color: #ffffff;
+	border-bottom: 1px solid black;
+}
+
+#person-name { 
+	margin-left: 15px;
+}
+
+#menu {
+	display: inline;
+	margin-left: 50px;
+	margin-right: 51px;
+	position: relative;
+	float: left;
+	width:40px;
+	height:40px;
+}
+
+#burger-menu{
+	vertical-align:middle;
+	left:-150px;
+	top:60px;
+	width:150px;
+	height:100%;
+	background-color:white;
+	z-index: 99;
+	position: fixed;
+	border-right: 1px solid #aaa;
+}

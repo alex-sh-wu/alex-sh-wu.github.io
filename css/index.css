@@ -2,27 +2,6 @@ html * {
 	font-family: 'Lato', sans-serif !important;/* <-- fonts */
 }
 
-.nav-bar {
-	font-size: 30pt;
-	font-weight: 300; 
-	display: inline;
-	height: 60px;
-	width: 100%;
-	border-collapse: collapse;
-	position: fixed;
-	top: 0;
-	z-index: 100;
-	background-color: #ffffff;
-	border-bottom: 1px solid black;
-}
-
-#person-name { 
-	position: relative;
-	float: left;
-	margin-top: 3px;
-	width: auto;
-}
-
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -38,29 +17,6 @@ li.option {
 
 li.option:hover {
 	background-color: grey;
-}
-
-#menu {
-	display: inline;
-	margin-left: 50px;
-	margin-right: 46px;
-	position: relative;
-	margin-top: 10px;
-	float: left;
-	width:40px;
-	height:40px;
-}
-
-#burger-menu{
-	vertical-align:middle;
-	left:-150px;
-	top:60px;
-	width:150px;
-	height:100%;
-	background-color:white;
-	z-index: 99;
-	position: fixed;
-	border-right: 1px solid #aaa;
 }
 
 a {
