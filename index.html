@@ -2,13 +2,8 @@
 <head lang="en">
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107262405-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments)};
-    gtag('js', new Date());
-
-    gtag('config', 'UA-107262405-1');
-  </script>
+  <script src="js/ga.js"></script>
+  <script async src="js/burger-menu.js"></script>
   <meta charset="UTF-8">
   <title>Hello World!</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -16,58 +11,33 @@
 </head>
 <html>
   <body>
-
-  <div class="nav-bar">
-    <div style="float: left;">
-      <img id="menu" src="img/menu-alt-512.png">
-      <a id="person-name" href="index.html" width="auto">| <b>Alex Sin Hang Wu</b></a>
+    <div class="nav-bar">
+      <div style="float: left;">
+        <img id="menu" src="img/menu-alt-512.png">
+        <a id="person-name" href="index.html" width="auto">| <b>Alex Sin Hang Wu</b></a>
+      </div>
     </div>
-  </div>
-  
-  <div id="burger-menu">
-    <ul>
-      <li class="option"><b><a class="option" href="index.html">HOME</a></b></li>
-      <li class="option"><a class="option" href="about.html">ABOUT ME</a></li>
-      <li class="option"><a class="option" href="misc/ashwu resume.pdf">RESUME</a></li>
-      <li class="option"><a class="option" href="https://github.com/alex-sh-wu">GITHUB</a></li>
-      <li class="option"><a class="option" href="https://www.linkedin.com/in/alexshwu">LINKEDIN</a></li>
-      <li class="option"><a class="option" href="contact.html">CONTACT</a><li>
-    </ul>
-  </div>
-  
-  <div id="filler">
-  </div>
-  
-  <div class="introduction" width="100%">
-    <img id="portrait" src="img/profile_picture.jpg">
-    <h1>Hello! Welcome to my website!</h1>
-    <p class="introduction">
-    I am Alex Sin Hang Wu, an alumni from the University of Waterloo. I graduated with a Bachelors of Computer Science with a Business option. I have a passion for coding and I like to tackle side projects in my spare time when I am inspired - <b>this website</b> is one of them!
-    </p>
-  </div>
+    
+    <div id="burger-menu">
+      <ul>
+        <li class="option"><b><a class="option" href="index.html">HOME</a></b></li>
+        <li class="option"><a class="option" href="about.html">ABOUT ME</a></li>
+        <li class="option"><a class="option" href="misc/ashwu resume.pdf">RESUME</a></li>
+        <li class="option"><a class="option" href="https://github.com/alex-sh-wu">GITHUB</a></li>
+        <li class="option"><a class="option" href="https://www.linkedin.com/in/alexshwu">LINKEDIN</a></li>
+        <li class="option"><a class="option" href="contact.html">CONTACT</a><li>
+      </ul>
+    </div>
+    
+    <div id="filler">
+    </div>
+    
+    <div class="introduction" width="100%">
+      <img id="portrait" src="img/profile_picture.jpg">
+      <h1>Hello! Welcome to my website!</h1>
+      <p class="introduction">
+      I am Alex Sin Hang Wu, an alumni from the University of Waterloo. I graduated with a Bachelors of Computer Science with a Business option. I have a passion for coding and I like to tackle side projects in my spare time when I am inspired - <b>this website</b> is one of them!
+      </p>
+    </div>
   </body>
-<script>
-  'use strict';
-  var isShowing = false;
-  var burger_menu_logo = document.getElementById("menu");
-  var burger_menu = document.getElementById("burger-menu");
-  
-  window.addEventListener("load", function() {
-    console.log("window is loaded!");
-    
-    //alert("This website is optimized for Google Chrome only. Please switch your browser for a better viewing experience.");
-    
-    burger_menu_logo.addEventListener("click", function() {
-      console.log("burger menu clicked!");
-      if (!isShowing) {
-        burger_menu.style.left = "0px";
-        isShowing = true;
-      } else {
-        burger_menu.style.left = "-150px";
-        isShowing = false;
-      }
-    });
-  });
-  
-</script>
 </html>
