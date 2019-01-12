@@ -4,6 +4,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 100%;
+  padding-left: 8px;
 }
 .header > * {
   flex: 0 0 auto;
@@ -22,35 +23,57 @@
 }
 
 .nav-bar {
-	font-size: 30pt;
-	font-weight: 300; 
-	height: 60px;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	z-index: 100;
-	background-color: #ffffff;
-	border-bottom: 1px solid black;
+  font-size: 30pt;
+  font-weight: 300; 
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
 }
 
 #menu {
-	display: inline;
-	margin-left: 50px;
-	margin-right: 51px;
-	position: relative;
-	float: left;
-	width:40px;
-	height:40px;
+  margin-left: 50px;
+  margin-right: 51px;
+  position: relative;
+  width:40px;
 }
 
 #burger-menu{
-	vertical-align:middle;
-	left:-150px;
-	top:60px;
-	width:150px;
-	height:100%;
-	background-color:white;
-	z-index: 99;
-	position: fixed;
-	border-right: 1px solid #aaa;
+  vertical-align:middle;
+  left:-150px;
+  top:60px;
+  width:150px;
+  height:100%;
+  background-color:white;
+  z-index: 99;
+  position: fixed;
+  border-right: 1px solid #aaa;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left:25px;
+}
+
+li.option {
+  vertical-align:center;
+  line-height:50px;
+  text-align: center;
+}
+
+li.option:hover {
+  background-color: grey;
+}
+
+a.option {
+  display: inline-block;
+  width: 110px;
+  height: 50px;
+  border-bottom: 1px solid #aaa;
 }
