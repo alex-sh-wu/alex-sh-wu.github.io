@@ -5,6 +5,15 @@
   align-items: center;
   height: 100%;
 }
+.header > * {
+  flex: 0 0 auto;
+}
+.header > #person-name { 
+  margin-left: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .vl {
   background-color: black;
@@ -22,10 +31,6 @@
 	z-index: 100;
 	background-color: #ffffff;
 	border-bottom: 1px solid black;
-}
-
-#person-name { 
-	margin-left: 15px;
 }
 
 #menu {
