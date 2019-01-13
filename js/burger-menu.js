@@ -9,7 +9,9 @@ window.addEventListener("load", function() {
 
   var burger_menu_items = document.getElementsByClassName("option");
   if (window.location.host !== "") {
-    document.getElementById("person-name").href = '/';
+    var me = document.getElementsByClassName("person-name");
+    me[0].href = '/';
+    me[1].href = '/';
     burger_menu_items[0].children[0].href = '/';
   }
   for (var i = 0; i < burger_menu_items.length; i++) {

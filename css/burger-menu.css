@@ -9,11 +9,23 @@
 .header > * {
   flex: 0 0 auto;
 }
-.header > #person-name { 
+
+.person-name { 
   margin-left: 15px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.person-name.shortened {
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .person-name { 
+    display: none;
+  }
+  .person-name.shortened {
+    display: initial;
+  }
 }
 
 .vl {
