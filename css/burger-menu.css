@@ -54,26 +54,29 @@
   border-right: 1px solid #aaa;
 }
 
-#burger-menu > ul {
+.options {
   list-style-type: none;
   margin: 0;
   padding: 0;
   left:25px;
 }
 
-li.option {
-  vertical-align:center;
+.options > li {
   line-height:50px;
   text-align: center;
 }
 
-li.option:hover {
+.options > li:hover {
   background-color: grey;
 }
 
-a.option {
+.options > li > a {
   display: inline-block;
   width: 110px;
   height: 50px;
   border-bottom: 1px solid #aaa;
+}
+
+.option.active {
+  font-weight: bold;
 }
