@@ -42,7 +42,7 @@
   width:40px;
 }
 
-#burger-menu{
+#burger-menu {
   vertical-align:middle;
   left:-150px;
   top:60px;
@@ -54,7 +54,7 @@
   border-right: 1px solid #aaa;
 }
 
-ul {
+#burger-menu > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;

@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<head lang="en">
-  <!-- Global Site Tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107262405-1"></script>
-  <script src="js/ga.js"></script>
-  <script async src="js/burger-menu.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World!</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:300,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="css/burger-menu.css">
-  <link rel="stylesheet" type="text/css" href="css/about.css">
-</head>
 <html>
+  <head lang="en">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107262405-1"></script>
+    <script src="js/ga.js"></script>
+    <script async src="js/burger-menu.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/burger-menu.css">
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+  </head>
   <body>
     <div class="nav-bar">
       <div class="header">
@@ -31,104 +32,102 @@
         <li class="option"><a class="option" href="contact.html">CONTACT</a></li>
       </ul>
     </div>
-    
-    <div id="filler">
-      <img class="static-background" src="img/static-background2.jpg">
-    </div>
-    
-    <div class="colors" style="background-color:#3B8C88">
-      <div class="title"><h1>Programming Languages</h1></div>
-      <h4 class="programming">
-      Proficient:
-      </h4>
-      <ul>
-        <li class="programming">C++</li>
-        <li class="programming">Java</li>
-        <li class="programming">Racket</li>
-        <li class="programming">Python (Self-taught)</li>
-        <li class="programming">C</li>
-        <li class="programming">VBA</li>
-        <li class="programming">JavaScript</li>
-      </ul>
-      <h4 class="programming">
-      In Progress:
-      </h4>
-      <ul>
-        <li class="programming">LaTeX</li>
-        <li class="programming">Android</li>
-        <li class="programming">HTML5</li>
-      </ul>
-      <p>
-      
-      </p>
-    </div>
-    
-    <div class="colors" style="background-color:#EAF27E">
-      <div class="title" style="color:gray"><h1>Apps that I've worked on</h1></div>
-      <div>
-        <table width="80%" align="center">
-          <tr>
-            <th>
-              <img src="img/saveca-icon.webp" width="80px" height ="80px">
-              <a class="downloadBadge" href="https://play.google.com/store/apps/details?id=ca.save.m">
-                <img alt="Android app on Google Play" src="img/badge_googleplay.png" height="82px">
-              </a>
-              <a class="downloadBadge" href="https://itunes.apple.com/ca/app/save.ca-canadas-destination/id720267098?mt=8">
-                <img alt="Available on the App Store" src="img/badge_appstore.png" height ="78px">
-              </a>
-            </th>
-          </tr>
-        </table>
-        <div>
-          <p class="body-text">
-          <b>Save.ca</b> (available on both Android and iOS) is an app that I developed and maintained while working at Metroland Media Group Ltd, from September 2014 - December 2014. Save.ca is written using Appcelerator/Titanium Studio. Similar to PhoneGap, this requires the source code to be written in JavaScript, and the app is single-threaded.
+
+    <div class="content">
+      <div class="container about">
+        <div class="colors programming" style="background-color:#3B8C88">
+          <h1>Programming Languages</h1>
+          <h4>
+          Proficient:
+          </h4>
+          <ul>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Racket</li>
+            <li>Python (Self-taught)</li>
+            <li>C</li>
+            <li>VBA</li>
+            <li>JavaScript</li>
+          </ul>
+          <h4>
+          In Progress:
+          </h4>
+          <ul>
+            <li>LaTeX</li>
+            <li>Android</li>
+            <li>HTML5</li>
+          </ul>
+        </div>
+
+        <div class="colors apps" style="background-color:#EAF27E">
+          <div style="color:gray"><h1>Apps that I've worked on</h1></div>
+          <div>
+            <table width="80%" align="center">
+              <tr>
+                <th>
+                  <img src="img/saveca-icon.webp" width="80px" height ="80px">
+                  <a class="downloadBadge" href="https://play.google.com/store/apps/details?id=ca.save.m">
+                    <img alt="Android app on Google Play" src="img/badge_googleplay.png" height="82px">
+                  </a>
+                  <a class="downloadBadge" href="https://itunes.apple.com/ca/app/save.ca-canadas-destination/id720267098?mt=8">
+                    <img alt="Available on the App Store" src="img/badge_appstore.png" height ="78px">
+                  </a>
+                </th>
+              </tr>
+            </table>
+            <div>
+              <p class="body-text">
+              <b>Save.ca</b> (available on both Android and iOS) is an app that I developed and maintained while working at Metroland Media Group Ltd, from September 2014 - December 2014. Save.ca is written using Appcelerator/Titanium Studio. Similar to PhoneGap, this requires the source code to be written in JavaScript, and the app is single-threaded.
+              </p>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div>
+              <p class="body-text">
+              <img id="screenshot1" src="img/tictactoe.png" width="192px" height ="320px" align="left">
+              <b>TicTacToe</b> (written in native Android) is an app that I wrote for a job application for another company. This app has two modes: PVP and PVE. PVP allows two people to play against each other, while PVE is playing Tic Tac Toe against an AI. 
+              </p>
+              <p>
+              </p>
+              <p class="body-text">
+              The AI uses the MiniMax algorithm to determine its next moves. I did not write the MiniMax code myself; I used a modified version of the code found here:
+              </p>
+              <p>
+                <a href="https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html" style="white-space: pre-wrap; word-break: break-all;">https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html</a>
+              </p>
+              <p class="body-text">
+              If you would like to see the source code for this app, please contact me.
+              </p>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div>
+              <p class="body-text">
+              <img id="screenshot2" src="img/gameoflife.png" width="192px" height ="320px" align="right">
+              The <b>Game of Game of Life</b> (a game based on Conway's Game of life) is an app written in native Android app, in collaboration with my roommates. Each of us worked on a different game mode of the app. I wrote the multiplayer mode, where two players compete against each other by trying to get as many cells as they can inside their territory on the grid. This part of the game uses the canvas from default graphics library of Android to draw the grid.
+              </p>
+              <p>
+              </p>
+              <p class="body-text">
+              This app is still incomplete, so it is not available on the Google Play Store yet.
+              </p>
+            </div>
+          </div>
+          <hr>
+        </div>
+        
+        <div class="colors" style="background-color:#FFB969">
+        </div>
+        <div class="colors" style="background-color:#FF3D5A">
+        </div>
+        <div class="colors" style="background-color:#452E3C">
+          <p class="resume-link"> Click <b>
+          <a href="misc/ashwu resume.pdf">here</a></b> to download my resume!
           </p>
         </div>
       </div>
-      <hr style="width: 90%">
-      <div>
-        <div>
-          <p class="body-text">
-          <img src="img/tictactoe.png" width="192px" height ="320px" align="left">
-          <b>TicTacToe</b> (written in native Android) is an app that I wrote for a job application for another company. This app has two modes: PVP and PVE. PVP allows two people to play against each other, while PVE is playing Tic Tac Toe against an AI. 
-          </p>
-          <p>
-          </p>
-          <p class="body-text">
-          The AI uses the MiniMax algorithm to determine its next moves. I did not write the MiniMax code myself; I used a modified version of the code found here: <a href="https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html">https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html</a>.
-          </p>
-          <p>
-          </p>
-          <p class="body-text">
-          If you would like to see the source code for this app, please contact me.
-          </p>
-        </div>
-      </div>
-      <hr style="width: 90%">
-      <div>
-        <div>
-          <p class="body-text">
-          <img src="img/gameoflife.png" width="192px" height ="320px" align="right">
-          The <b>Game of Game of Life</b> (a game based on Conway's Game of life) is an app written in native Android app, in collaboration with my roommates. Each of us worked on a different game mode of the app. I wrote the multiplayer mode, where two players compete against each other by trying to get as many cells as they can inside their territory on the grid. This part of the game uses the canvas from default graphics library of Android to draw the grid.
-          </p>
-          <p>
-          </p>
-          <p class="body-text">
-          This app is still incomplete, so it is not available on the Google Play Store yet.
-          </p>
-        </div>
-      </div>
-      <hr style="width: 90%">
-    </div>
-    
-    <div class="colors" style="background-color:#FFB969">
-    </div>
-    <div class="colors" style="background-color:#FF3D5A">
-    </div>
-    <div class="colors" style="background-color:#452E3C">
-      <p class="resume-link"> Click <b>
-      <a href="misc/ashwu resume.pdf">here</a></b> to download my resume!
-      </p>
     </div>
   </body>
 </html>

@@ -1,64 +1,57 @@
-html * {
-	font-family: 'Lato', sans-serif !important;/* <-- fonts */
+.content {
+  background-image: url("../img/static-background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-a {
-	text-decoration: none;
-	color: black;
-}
-
-#filler {
-height: 500px;
+@media only screen and (min-width: 801px) {
+  .container.about {
+    max-width: 800px;
+    padding-top: 500px;
+  }
 }
 
 div.colors {
-	line-height:30px;
-    background-color:#eeeeee;
-    padding:5px; 
-	width: 90%;
-	margin: auto;
+  background-color:#eeeeee;
+  padding:5px 50px;
+}
+div.colors > hr {
+  width: 100%;
 }
 
-.static-background {
-	z-index: -1;
-	top:25px;
-	width: 100%;
-	position:fixed;
+.programming {
+  background-color: #3B8C88;
+  color: white;
+}
+.programming > h4, .programming > ul > li {
+  line-height: 20px;
+  margin-left: 25px;
 }
 
 .title {
-	color:#FFFFFF;
-	margin-left: 50px;
-	height: 40px;
-	vertical-align: middle;
-}
-
-.inverse-title {
-	background-color:#FFFFFF;
-	color:gray;
-	margin-right: 50px;
-	height: 40px;
-	vertical-align: middle;
-}
-
-h4.programming, li.programming {
-	color:#FFFFFF;
-	line-height:20px;
-	margin-left: 75px;
+  color:#FFFFFF;
+  margin-left: 50px;
+  height: 40px;
+  vertical-align: middle;
 }
 
 .body-text {
-	text-align: left;
-	max-width: 90%;
-	margin: auto;
+  margin: auto;
 }
 
-.download {
-	margin: auto;
-	text-align: center;
+#screenshot1 {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#screenshot2 {
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .resume-link {
-	color: #FFFFFF;
-	text-align:center;
+  color: #FFFFFF;
+  text-align:center;
 }

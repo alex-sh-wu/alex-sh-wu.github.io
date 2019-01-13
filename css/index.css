@@ -1,37 +1,13 @@
-html * {
-	font-family: 'Lato', sans-serif !important;/* <-- fonts */
-}
-
-
-a {
-	text-decoration: none;
-	color: black;
-}
-
-#filler {
-height: 110px;
-}
-
 #portrait {
-	background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-	margin: auto;
-	display: block;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
 }
 
-div.introduction {
-	margin: auto;
-}
-
-p.introduction {
-	text-align: left;
-	max-width: 60%;
-	margin: auto;
-}
-
-h1 {
-	text-align: center;
+.introduction > h1 {
+  text-align: center;
 }
