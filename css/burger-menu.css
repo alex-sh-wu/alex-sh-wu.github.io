@@ -44,14 +44,15 @@
 
 #burger-menu {
   vertical-align:middle;
-  left:-150px;
-  top:60px;
-  width:150px;
-  height:100%;
+  left: -150px;
+  top: 60px;
+  width: 150px;
+  height: 100%;
   background-color:white;
   z-index: 99;
   position: fixed;
   border-right: 1px solid #aaa;
+  transition: 0.5s;
 }
 
 .options {
