@@ -8,6 +8,10 @@ window.addEventListener("load", function() {
   //alert("This website is optimized for Google Chrome only. Please switch your browser for a better viewing experience.");
 
   var burger_menu_items = document.getElementsByClassName("option");
+  if (window.location.host !== "") {
+    document.getElementById("person-name").href = '/';
+    burger_menu_items[0].children[0].href = '/';
+  }
   for (var i = 0; i < burger_menu_items.length; i++) {
     if (burger_menu_items[i].children[0].href === window.location.href) {
       burger_menu_items[i].classList.add("active");
