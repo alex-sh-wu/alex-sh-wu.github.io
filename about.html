@@ -36,7 +36,7 @@
 
     <div class="content">
       <div class="container about">
-        <div class="colors programming" style="background-color:#3B8C88">
+        <div class="colors programming">
           <h1>Programming Languages</h1>
           <h4>Proficient:</h4>
           <ul>
@@ -54,72 +54,62 @@
           </ul>
         </div>
 
-        <div class="colors apps" style="background-color:#EAF27E">
-          <div style="color:gray"><h1>Apps that I've worked on</h1></div>
+        <div class="colors apps">
+          <h1>Apps that I've worked on</h1>
+          <div class="app-links">
+            <img src="img/saveca-icon.jpeg">
+            <a class="downloadBadge" href="https://play.google.com/store/apps/details?id=ca.save.m">
+              <img alt="Android app on Google Play" src="img/badge_googleplay.png">
+            </a>
+            <a class="downloadBadge" href="https://itunes.apple.com/ca/app/save.ca-canadas-destination/id720267098?mt=8">
+              <img alt="Available on the App Store" src="img/badge_appstore.png">
+            </a>
+          </div>
           <div>
-            <table width="80%" align="center">
-              <tr>
-                <th>
-                  <img src="img/saveca-icon.jpeg" width="80px" height ="80px">
-                  <a class="downloadBadge" href="https://play.google.com/store/apps/details?id=ca.save.m">
-                    <img alt="Android app on Google Play" src="img/badge_googleplay.png" height="82px">
-                  </a>
-                  <a class="downloadBadge" href="https://itunes.apple.com/ca/app/save.ca-canadas-destination/id720267098?mt=8">
-                    <img alt="Available on the App Store" src="img/badge_appstore.png" height ="78px">
-                  </a>
-                </th>
-              </tr>
-            </table>
-            <div>
-              <p class="body-text">
-              <b>Save.ca</b> (available on both Android and iOS) is an app that I developed and maintained while working at Metroland Media Group Ltd, from September 2014 - December 2014. Save.ca is written using Appcelerator/Titanium Studio. Similar to PhoneGap, this requires the source code to be written in JavaScript, and the app is single-threaded.
-              </p>
-            </div>
+            <p>
+              <b>Save.ca</b> is a mobile app project that I developed and maintained while working at Metroland Media Group Ltd, from September 2014 - December 2014.
+              While working there, a fellow co-op and I single-handedly increased the iOS app's rating from 1 star to 4 stars, and the Android app's rating from 3 stars to 4 stars.
+            </p>
+            <p>
+              At the time of my co-op placement, the logic code for these two apps was written in Javascript and executed through the Javascript engine on Android and iOS.
+              This helped the project to have plenty of code reuse, but as a downside, the apps were single-threaded.
+            </p>
           </div>
           <hr>
-          <div>
-            <div>
-              <p class="body-text">
-              <img id="screenshot1" src="img/tictactoe.png" width="192px" height ="320px" align="left">
-              <b>TicTacToe</b> (written in native Android) is an app that I wrote for a job application for another company. This app has two modes: PVP and PVE. PVP allows two people to play against each other, while PVE is playing Tic Tac Toe against an AI. 
-              </p>
-              <p>
-              </p>
-              <p class="body-text">
-              The AI uses the MiniMax algorithm to determine its next moves. I did not write the MiniMax code myself; I used a modified version of the code found here:
-              </p>
-              <p>
-                <a href="https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html" style="white-space: pre-wrap; word-break: break-all;">https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html</a>
-              </p>
-              <p class="body-text">
+          <div class="clearfix">
+            <img id="screenshot1" src="img/tictactoe.png">
+            <p>
+              <b>TicTacToe</b> is a Native Android app that I developed for a coding challenge. This app has two modes: PVP and PVE. PVP allows two players to face against each other, while PVE is playing against the AI. 
+            </p>
+            <p>
+              The AI uses the Minimax algorithm to determine its next moves. I did not write the Minimax code myself but used a modified version of the code found
+              <a href="https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html" target="_blank">here</a>. The project was completed within two days.
+            </p>
+            <p>
               If you would like to see the source code for this app, please contact me.
-              </p>
-            </div>
+            </p>
           </div>
           <hr>
-          <div>
-            <div>
-              <p class="body-text">
-              <img id="screenshot2" src="img/gameoflife.png" width="192px" height ="320px" align="right">
-              The <b>Game of Game of Life</b> (a game based on Conway's Game of life) is an app written in native Android app, in collaboration with my roommates. Each of us worked on a different game mode of the app. I wrote the multiplayer mode, where two players compete against each other by trying to get as many cells as they can inside their territory on the grid. This part of the game uses the canvas from default graphics library of Android to draw the grid.
-              </p>
-              <p>
-              </p>
-              <p class="body-text">
-              This app is still incomplete, so it is not available on the Google Play Store yet.
-              </p>
-            </div>
+          <div class="clearfix">
+            <img id="screenshot2" src="img/gameoflife.png">
+            <p>
+              The <b>Game of Game of Life</b>, based on Conway's Game of life, is a Native Android app written in collaboration with my roommates during university.
+              Each of us worked on a different game mode of the app. I wrote the multiplayer mode, where two players compete against each other by trying to get as many cells as they can inside their territory on the grid.
+              This part of the game uses the canvas from default graphics library of Android to draw the grid.
+            </p>
+            <p>
+              This app was and still is incomplete, so it is likely that it will never be published to the Google Play Store at this point.
+            </p>
           </div>
-          <hr>
         </div>
         
-        <div class="colors" style="background-color:#FFB969">
+        <div class="colors">
         </div>
-        <div class="colors" style="background-color:#FF3D5A">
+        <div class="colors">
         </div>
-        <div class="colors" style="background-color:#452E3C">
-          <p class="resume-link"> Click <b>
-          <a href="misc/ashwu resume.pdf">here</a></b> to download my resume!
+        <div class="colors">
+          <p class="resume-link">
+            Click <a href="misc/ashwu resume.pdf">here</a> to download my resume!
           </p>
         </div>
       </div>
