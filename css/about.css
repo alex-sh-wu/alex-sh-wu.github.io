@@ -6,7 +6,12 @@
   background-attachment: fixed;
 }
 
-@media only screen and (min-width: 801px) {
+.container.about {
+  padding: 0;
+  max-width: unset;
+}
+
+@media only screen and (min-width: 700px) {
   .container.about {
     max-width: 800px;
     padding-top: 500px;
