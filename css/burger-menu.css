@@ -90,6 +90,6 @@
   border-bottom: 1px solid #aaa;
 }
 
-.option.active {
+.options > .active {
   font-weight: bold;
 }

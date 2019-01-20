@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
 
   //alert("This website is optimized for Google Chrome only. Please switch your browser for a better viewing experience.");
 
-  var burger_menu_items = document.getElementsByClassName("option");
+  var burger_menu_items = document.getElementsByClassName("options")[0].children;
   if (window.location.host !== "") {
     var me = document.getElementsByClassName("person-name");
     me[0].href = '/';
@@ -18,6 +18,7 @@ window.addEventListener("load", function() {
     if (burger_menu_items[i].children[0].href === window.location.href) {
       burger_menu_items[i].classList.add("active");
       burger_menu_items[i].children[0].href = "#"
+      break;
     }
   };
 
