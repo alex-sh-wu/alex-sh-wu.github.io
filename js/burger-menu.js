@@ -15,7 +15,7 @@ window.addEventListener("load", function() {
     burger_menu_items[0].children[0].href = '/';
   }
   for (var i = 0; i < burger_menu_items.length; i++) {
-    if (burger_menu_items[i].children[0].href === window.location.href) {
+    if (burger_menu_items[i].children[0].href === window.location.pathname) {
       burger_menu_items[i].classList.add("active");
       burger_menu_items[i].children[0].href = "#"
       break;
