@@ -1,0 +1,43 @@
+.slidingMenu {
+  vertical-align: middle;
+  top: 60px;
+  width: 150px;
+  height: 100%;
+  background-color: white;
+  z-index: 99;
+  position: fixed;
+  border-right: 1px solid #aaa;
+  transition: 0.5s;
+  left: 0;
+}
+
+.slidingMenu.hidden {
+  left: -150px;
+}
+
+.options {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 25px;
+}
+
+.options > li {
+  line-height: 50px;
+  text-align: center;
+}
+
+.options > li:hover {
+  background-color: grey;
+}
+
+.options > li > a {
+  display: inline-block;
+  width: 110px;
+  height: 50px;
+  border-bottom: 1px solid #aaa;
+}
+
+.active {
+  font-weight: bold;
+}
