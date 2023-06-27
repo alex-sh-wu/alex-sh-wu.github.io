@@ -14,7 +14,7 @@ export default function NavBar() {
     <>
       <div className={clsx(styles.navBar, styles.header)}>
         <Image
-          src="/nextjs-github-pages/burger_menu.png"
+          src="/burger_menu.png"
           alt="burger menu"
           className={styles.burgerMenuIcon}
           width={40}
