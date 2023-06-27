@@ -30,7 +30,7 @@ export default function AboutMe() {
           <div className={styles.appLinks}>
             <Image
               alt="save.ca icon"
-              src="/saveca-icon.jpeg"
+              src="/nextjs-github-pages/saveca-icon.jpeg"
               width={80}
               height={80}
             />
@@ -40,7 +40,7 @@ export default function AboutMe() {
             >
               <Image
                 alt="Android app on Google Play"
-                src="/badge_googleplay.png"
+                src="/nextjs-github-pages/badge_googleplay.png"
                 width={229}
                 height={80}
               />
@@ -51,7 +51,7 @@ export default function AboutMe() {
             >
               <Image
                 alt="Available on the App Store"
-                src="/badge_appstore.png"
+                src="/nextjs-github-pages/badge_appstore.png"
                 width={229}
                 height={80}
               />
@@ -78,7 +78,7 @@ export default function AboutMe() {
             <Image
               className={styles.screenshot1}
               alt="tic tac toe screenshot"
-              src="/tictactoe.png"
+              src="/nextjs-github-pages/tictactoe.png"
               width={192}
               height={320}
             />
@@ -110,7 +110,7 @@ export default function AboutMe() {
             <Image
               className={styles.screenshot2}
               alt="game of life screenshot"
-              src="/gameoflife.png"
+              src="/nextjs-github-pages/gameoflife.png"
               width={192}
               height={320}
             />

@@ -7,7 +7,7 @@ export default function Home() {
     <main className={clsx("prose-sm m-auto", styles.narrow)}>
       <br />
       <Image
-        src="/profile_picture.jpg"
+        src="/nextjs-github-pages/profile_picture.jpg"
         width={200}
         height={200}
         alt="Picture of the author"
